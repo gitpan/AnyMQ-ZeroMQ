@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               AnyMQ-ZeroMQ
-version:            0.03
+version:            0.04
 abstract:           AnyMQ adaptor for ZeroMQ
 author:
     - Mischa Spiegelmock <revmischa@cpan.org>
@@ -13,7 +13,7 @@ build_requires:
 requires:
     Any::Moose:        0
     AnyEvent:          0
-    AnyEvent::ZeroMQ:  0
+    AnyEvent::ZeroMQ:  0.34
     JSON:              0
     Test::More:        0
 no_index:
